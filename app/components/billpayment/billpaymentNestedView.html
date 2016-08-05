@@ -1,0 +1,30 @@
+<div class="uk-width-medium-1-2">
+                <div class="md-card md-bg-cyan-700">
+                    <div class="md-card-content">
+                        <h3 class="heading_a uk-margin-bottom">Thanh toán tiền điện</h3>
+
+                        <input type="text" config="bill_evn_config" options="bill_evn_providers.options" ng-model="bill_evn_provider" name="bill_evn_provider"
+                            selectize />
+
+                        <div class="uk-input-group">
+                            <input type="text" class="md-input" ng-model="form.input_h" md-input placeholder="Mã khách hàng" />
+                            <span class="uk-input-group-addon"><a class="md-btn" href="#">Truy vấn</a></span>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+            <div class="uk-width-medium-1-2">
+                <div class="md-card md-bg-blue-100">
+                    <div class="md-card-content">
+                        <h3 class="heading_a uk-margin-bottom">Thanh toán dịch vụ khác</h3>
+                        <input type="text" config="bill_evn_config" options="bill_other_providers.options" ng-model="bill_other_provider" name="bill_other_provider"
+                            selectize />
+                        <div class="uk-input-group">
+                            <input type="text" class="md-input" ng-model="form.input_h" md-input placeholder="Mã khách hàng" />
+                            <span class="uk-input-group-addon"><a class="md-btn" href="#">Truy vấn</a></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
