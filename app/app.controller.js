@@ -169,12 +169,12 @@ angular
                     icon: '&#xE870',
                     link: 'restricted.ewallet'
                 },
-                {
-                    id: 3,
-                    title: 'Chuyển tiền',
-                    icon: '&#xE0B9;',
-                    link: 'restricted.fundtransfer'
-                },
+                // {
+                //     id: 3,
+                //     title: 'Chuyển tiền',
+                //     icon: '&#xE0B9;',
+                //     link: 'restricted.fundtransfer'
+                // },
                 {
                     id: 4,
                     title: 'Mã thẻ trả trước',
